@@ -15,7 +15,7 @@ Esta aplicación ha sido desarrollada con **.NET 8** y tiene como objetivo propo
 
 ## 🏗️ Arquitectura
 
-Se implementó **arquitectura limpia** basada en cuatro capas bien definidas:
+Se implementó **arquitectura limpia** basada en cinco capas bien definidas:
 
 - **Domain**  
   Contiene las entidades e interfaces.
@@ -28,12 +28,15 @@ Se implementó **arquitectura limpia** basada en cuatro capas bien definidas:
 
 - **WebApi**  
   Capa de presentación que expone los endpoints REST.
-
+  
+- **Test**  
+  Capa para pruebas unitarias y de integracion.
+  
 ---
 
 ## 🧩 Patrones de Diseño Utilizados
 
-- **Repository Pattern**  
+- **Repository**  
   Para abstraer el acceso a los datos y facilitar pruebas unitarias.
 
 - **Unit of Work**  
