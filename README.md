@@ -6,10 +6,14 @@ Esta aplicación ha sido desarrollada con **.NET 8** y tiene como objetivo propo
 
 ## 🚀 Tecnologías Utilizadas
 
+- C#
 - [.NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - Entity Framework Core 8
 - Apache Kafka
 - Elasticsearch
+- Serilog
+- MediatR
+- xUnit
 
 ---
 
@@ -44,6 +48,9 @@ Se implementó **arquitectura limpia** basada en cinco capas bien definidas:
 
 - **CQRS (Command Query Responsibility Segregation)**  
   Separación clara entre operaciones de lectura y escritura.
+ 
+- **Mediator**  
+  Patron mediador, usando MediatR.
 
 ---
 
